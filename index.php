@@ -3,11 +3,8 @@
 require './lib/autoload.php';
 
 
-$smarty = new Smarty();
-$smarty->setTemplateDir('view/');
-$smarty->setCompileDir('view/compile/');
-$smarty->setCacheDir('view/cache/');
-
+$smarty = new Template();
+Rotas::get_Pagina();
 
 //valores para o template
 
